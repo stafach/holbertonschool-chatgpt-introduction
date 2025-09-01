@@ -8,4 +8,4 @@ def factorial(n):
         n -= 1
     return result
 
-print("Usage: python3 script.py <nombre>")
+print(factorial(int(sys.argv[1])))
