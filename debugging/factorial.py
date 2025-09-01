@@ -8,8 +8,4 @@ def factorial(n):
         n -= 1
     return result
 
-if len(sys.argv) > 1:
-    f = factorial(int(sys.argv[1]))
-    print(f)
-else:
-    print("Usage: python3 script.py <nombre>")
+print("Usage: python3 script.py <nombre>")
